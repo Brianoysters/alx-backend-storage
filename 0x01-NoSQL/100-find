@@ -1,0 +1,3 @@
+// Lists all documents having Holberton in the school collection.
+db.school.find({name: /Holberton.*/}).forEach(printjson);
+
